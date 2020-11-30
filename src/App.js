@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import MyComponent from './MyComponent.js';
+import CounterButton from './CounterButton.js';
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <MyComponent name='Dave'/>
+        <CounterButton/>
         <a
           className="App-link"
           href="https://reactjs.org"
